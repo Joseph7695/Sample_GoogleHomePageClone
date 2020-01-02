@@ -1,0 +1,125 @@
+.search-container {
+  margin: 25px;
+  display: inline-flex;
+  /* flex: 1 1 300px; */
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  box-shadow: #aaaaaa80 1px 1px 10px 2px;
+  /* align-content: center;
+  justify-content: center; */
+  overflow: hidden;
+}
+
+.search-icon {
+  padding: 0.5rem;
+}
+
+.search-box {
+  border: 0;
+  padding: 0.5rem 0.5rem 0.5rem 0;
+  flex: 1;
+}
+
+html {
+  height: 100%;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.content {
+  /* background-color: #e3f2fd; */
+  flex: 1;
+  padding: 20px;
+}
+
+.footer {
+  border: 1px solid #aaaaaa80;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.footer-left {
+  display: inline-flex;
+  flex-direction: row;
+  float: left;
+  align-items: flex-start;
+}
+
+.footer-right{
+  display: inline-flex;
+  flex-direction: row;
+  float: right;
+  align-items: flex-end;
+}
+
+.footer-left > *, .footer-right > * {
+  margin: 0 .9rem;
+}
+
+.header-left > *, .header-right > *{
+  margin: 0 .6rem;
+}
+
+.header-right{
+  margin: 5px 5px;
+  padding: 10px;
+  display: inline-flex;
+  flex-direction: row;
+  float: right;
+  align-items: center;
+  justify-content: center;
+}
+.header-left {
+  margin: 10px 5px;
+  padding: 10px;
+  display: inline-flex;
+  flex-direction: row;
+  float: left;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-signin {
+  /* position: relative; */
+display: inline;
+  /* display: block; */
+  margin: 0;
+  padding: 5px 15px;
+
+  overflow: hidden;
+
+  border-width: 0;
+  outline: none;
+   border-radius: 5px; 
+  /* box-shadow: 0 1px 4px rgba(0, 0, 0, .6); */
+  
+  background-color: blue;
+  color: white;
+}
+
+.btn {
+  /* display: block; */
+  margin: 5px;
+  padding: 10px 15px;
+
+  overflow: hidden;
+
+  border-width: 0;
+  outline: none;
+   border-radius: 5px; 
+  /* box-shadow: 0 1px 4px rgba(0, 0, 0, .6); */
+  
+  background-color: f2f2f2;
+  color: #222222;
+
+}
+.content {
+    display: flex;
+flex-direction: column;
+    align-items: center;
+  justify-content: center;
+}
